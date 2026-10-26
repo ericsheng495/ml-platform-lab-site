@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f5f5ee" />
+    <meta name="description" content="An interactive field guide to building an ML platform. Explore the architecture, learn through simulations, and follow a 12-week implementation roadmap inspired by Bento and Michelangelo." />
+    <title>ML Platform Lab — A field guide</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <script type="module" crossorigin src="/ml-platform-lab-site/assets/index-ULw2xJIi.js"></script>
+    <link rel="stylesheet" crossorigin href="/ml-platform-lab-site/assets/index-D7CLE94J.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="#overview" aria-label="ML Platform Lab home"><span class="brand-mark">m<span>l</span></span><span>ML Platform Lab<small>A builder’s field guide</small></span></a>
+      <button class="search-trigger" id="open-search"><span>Search the guide</span><kbd>/</kbd></button>
+      <div class="nav-label">YOUR WORKSPACE</div>
+      <nav aria-label="Main navigation">
+        <a href="#overview" data-nav="overview"><span>◈</span> Overview</a>
+        <a href="#roadmap" data-nav="roadmap"><span>▤</span> Learning path <small>09</small></a>
+        <a href="#architecture" data-nav="architecture"><span>⌘</span> Architecture</a>
+        <a href="#labs" data-nav="labs"><span>⌁</span> Interactive labs <small>02</small></a>
+      </nav>
+      <div class="nav-label">THE READING ROOM</div>
+      <nav aria-label="Reference documents" id="document-nav"></nav>
+      <div class="sidebar-bottom"><div class="progress-caption"><span>Your progress</span><strong id="progress-label">0 / 9</strong></div><div class="progress-track"><span id="progress-fill"></span></div><p id="storage-status">Saved in this browser.</p><button class="text-button" id="export-progress">Export progress & notes ↗</button><a class="repo-link" href="https://github.com/ericsheng495/ml-platform-lab" target="_blank" rel="noreferrer">View repository ↗</a></div>
+    </aside>
+    <div class="workspace">
+      <header class="topbar"><button id="menu-toggle" class="icon-button" aria-label="Toggle navigation" aria-expanded="false">☰</button><span id="breadcrumb">FIELD GUIDE / OVERVIEW</span><span class="edition">01 <span>·</span> LOCAL-FIRST ML</span></header>
+      <main id="main" tabindex="-1"></main>
+      <footer><span>Build it. See it. Explain it.</span><span>Independent learning project · Based on public engineering articles</span></footer>
+    </div>
+    <dialog id="search-dialog" aria-labelledby="search-title"><div class="dialog-head"><h2 id="search-title">Search the guide</h2><button id="close-search" class="icon-button" aria-label="Close search">×</button></div><label class="sr-only" for="search-input">Search documents and milestones</label><input id="search-input" type="search" placeholder="Try “feature”, “rollback”, or “latency”…" autocomplete="off" /><div id="search-results" aria-live="polite"></div></dialog>
+    <div class="toast" id="toast" role="status"></div>
+  </body>
+</html>
